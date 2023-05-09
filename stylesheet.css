@@ -13,7 +13,7 @@ body {
   margin-left: auto; 
   margin-right: auto; 
   width: 1024px; 
-  height: 2000px;
+  height: 1000px;
   background-color: rgb(254, 249, 235);
 }
 h1 {
@@ -40,7 +40,7 @@ width: 1024px;
 font-family: 'Philosopher', sans-serif;
 font-size: 40px;
 background-color: #FFA4A4;
-color: rgb(254, 249, 235);
+color: rgb(255, 255, 255);
 }
 
 ul {
@@ -59,9 +59,11 @@ list-style-type: none;
   justify-content: left;
   flex-direction: column;
   width: 600px;
-  height: 1870px;
+  height: 870px;
   margin: 5px;
-  border: solid 2px blue;
+  overflow: scroll;
+  
+  /* border: solid 2px blue; */
 }
 
 p {
@@ -76,7 +78,8 @@ p {
   display: flex;
   align-self: flex-end;
   width: 445px;
-  height: 1882px;
+  height: 870px;
+  overflow: scroll;
   /* background-color: rgb(241, 228, 228); */
 }
 
