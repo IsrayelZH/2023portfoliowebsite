@@ -96,3 +96,21 @@ padding: 6px;
 height:80px ;
 width: 450px;
 }
+
+#Aboutme {
+display: flex;
+height: 125px;
+flex-direction: row;
+align-self: center;
+}
+#main-container2 {
+  position: absolute; 
+  display: flex;
+   left: 0; 
+   right: 0; 
+   margin-left: auto; 
+   margin-right: auto; 
+   width: 1024px; 
+   height: 1000px;
+   background-color: rgb(254, 249, 235); 
+  overflow: scroll;}
