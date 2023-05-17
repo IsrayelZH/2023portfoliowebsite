@@ -69,13 +69,16 @@ list-style-type: none;
 p {
  font-family: Arial, Helvetica, sans-serif;
  margin: 15px;
- font-size: 30px;
+ margin-bottom: 40px;
+ font-size: 25px;
+ text-align: center;
  display: flex;
  justify-content: center;
 }
 
 #newestart {
   display: flex;
+  flex-direction: column;
   align-self: flex-end;
   width: 500px;
   height: 870px;
@@ -84,9 +87,10 @@ p {
 }
 
 h2 {
-  display: flex;
+display: flex;
 justify-content: center;
 align-items: baseline;
+text-align: center;
 color: rgb(255, 255, 255);
 font-family: 'Philosopher', sans-serif;
 background-color: #FFA4A4;
@@ -130,3 +134,10 @@ width: 450px;
     display: flex;
     justify-content: center;
   }
+ 
+.exart {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  align-content: center;
+}
