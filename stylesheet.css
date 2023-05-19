@@ -29,10 +29,10 @@ height:125px ;
 }
 
 #nav {
-  position: absolute;
+position: absolute;
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
 align-self: flex-start;
 
 height: 118px;
@@ -53,6 +53,18 @@ ul {
 list-style-type: none;
 }
 
+a {
+  display: flex;
+  Flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+list-style-type: none;
+color: white;
+text-decoration: none;
+}
+
 #welcomepage {
   display: flex;
   align-self: flex-end;
@@ -62,6 +74,9 @@ list-style-type: none;
   height: 870px;
   margin: 5px;
   overflow: scroll;
+  /* scrollbar-base-color: #FFA4A4;
+  scrollbar-color: #FFA4A4;
+  scrollbar-face-color: #FFA4A4; */
   
   /* border: solid 2px blue; */
 }
@@ -108,7 +123,8 @@ width: 450px;
   color: rgb(255, 100, 100);
   font-family: 'Philosopher', sans-serif;
   font-size: 175px;
-  margin: 150px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   padding: 5px;
   height:125px ;
 }
@@ -116,6 +132,7 @@ width: 450px;
 #main-container2 {
   position: absolute; 
   display: flex;
+  flex-direction: column;
    left: 0; 
    right: 0; 
    margin-left: auto; 
@@ -127,12 +144,16 @@ width: 450px;
 
   #AMtxt {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 15px;
+    margin: 20px;
     font-size: 30px;
     height: 200px;
-    width: 500px;
+    width: 800px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    
   }
  
 .exart {
@@ -141,3 +162,48 @@ width: 450px;
   justify-content: center;
   align-content: center;
 }
+
+#navlogo {
+  display: flex;
+  align-self: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+#aboutlogo {
+  display: flex;
+  /* border: 4px solid black; */
+  justify-content: center;
+  margin-top: 125px;
+  height: 310px;
+  width: 514px;
+  align-self: center;
+}
+
+#main-container3 {
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+   left: 0; 
+   right: 0; 
+   margin-left: auto; 
+   margin-right: auto; 
+   width: 1220px; 
+   height: 1000px;
+   background-color: rgb(254, 249, 235); 
+  overflow: scroll;
+}
+
+  #main-container4 {
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+     left: 0; 
+     right: 0; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1220px; 
+     height: 1000px;
+     background-color: rgb(254, 249, 235); 
+    overflow: scroll;
+  }
